@@ -1,0 +1,17 @@
+<ion-view>
+  <ion-header-bar align-title="center" class="bar-energized">
+    <h1 class="title">Liste Hotels</h1>
+  </ion-header-bar>
+  <ion-content class="padding">
+    <div class="list">
+      <a ng-repeat="hotel in hotels"
+         type="item-text-wrap"
+         style="background-image:url('img/hotels/{{hotel.photo}}');"
+         class="hotelPicture" ui-sref='nav-hotel.hotel({hotel: hotel.id})'>
+          <h2>{{hotel.title}}</h2>
+        </a>
+    </div>
+  </ion-content>
+  <ion-footer-bar align-title="left" class="bar-energized">
+  </ion-footer-bar>
+</ion-view>

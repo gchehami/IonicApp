@@ -1,0 +1,28 @@
+<ion-view>
+  <ion-nav-bar class="bar-energized">
+    <ion-nav-back-button>
+    </ion-nav-back-button>
+    <ion-nav-buttons side="right">
+      <button class="button" ui-sref="home">Home</button>
+    </ion-nav-buttons>
+  </ion-nav-bar>
+
+  <ion-nav-view name="hotel-tab"></ion-nav-view>
+
+  <ion-footer-bar class="bar bar-footer">
+    <div class="tabs tabs-icon-top">
+      <a nav-clear class="tab-item disable-user-behavior active" ui-sref="nav-hotel.hotel">
+        <i class="icon ion-home"></i><span class="tab-title">fiche hotel</span>
+      </a>
+      <a nav-clear class="tab-item disable-user-behavior" ui-sref="nav-hotel.hotel.map">
+        <i class="icon ion-map"></i><span class="tab-title">Plan & accès</span>
+      </a>
+      <a nav-clear class="tab-item disable-user-behavior" ui-sref="nav-hotel.hotel.room">
+        <i class="icon ion-image"></i><span class="tab-title">Chambres</span>
+      </a>
+      <a nav-clear class="tab-item disable-user-behavior" ui-sref="nav-hotel.hotel.gallery">
+        <i class="icon ion-camera"></i><span class="tab-title">Galerie</span>
+      </a>
+    </div>
+  </ion-footer-bar>
+</ion-view>

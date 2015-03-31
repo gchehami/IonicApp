@@ -23,7 +23,7 @@ app.config(function($stateProvider, $urlRouterProvider) {
         }
       }
     })
-    .state('nav-hotel.hotel.map', {
+    .state('nav-hotel.hotel-map', {
       url: '/map',
       views: {
         'hotel-tab':{
@@ -32,7 +32,7 @@ app.config(function($stateProvider, $urlRouterProvider) {
         }
       }
     })
-    .state('nav-hotel.hotel.room', {
+    .state('nav-hotel.hotel-room', {
       url: '/room',
       views: {
         'hotel-tab':{
@@ -41,7 +41,7 @@ app.config(function($stateProvider, $urlRouterProvider) {
         }
       }
     })
-    .state('nav-hotel.hotel.gallery', {
+    .state('nav-hotel.hotel-gallery', {
       url: '/gallery',
       views: {
         'hotel-tab':{

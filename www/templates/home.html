@@ -6,9 +6,9 @@
     <div class="list">
       <a ng-repeat="hotel in hotels"
          type="item-text-wrap"
-         style="background-image:url('img/hotels/{{hotel.photo}}');"
          class="hotelPicture" ui-sref='nav-hotel.hotel({hotel: hotel.id})'>
-          <h2>{{hotel.title}}</h2>
+         <img src="img/hotels/{{hotel.photo}}" />
+         <h2>{{hotel.title}}</h2>
         </a>
     </div>
   </ion-content>

@@ -46,7 +46,7 @@ app.config(function($stateProvider, $urlRouterProvider) {
       views: {
         'hotel-tab':{
           templateUrl: 'templates/hotel-gallery.html',
-          controller : 'HotelsGalleryCtrl'
+          controller : 'MediaCtrl'
         }
       }
     })

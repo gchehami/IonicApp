@@ -3,6 +3,7 @@ app.controller('HomeCtrl', function($scope, HotelsService) {
 });
 
 app.controller('HotelCtrl', function($scope, HotelsService, $stateParams) {
+  console.log('ici');
   $scope.hotel = HotelsService.getHotel($stateParams.hotel);
 });
 
